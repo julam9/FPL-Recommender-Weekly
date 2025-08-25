@@ -133,3 +133,32 @@ def calculate_team_stats(squad: List[Dict[str, Any]]) -> Dict[str, Any]:
         'formation': formation,
         'team_diversity': team_diversity
     }
+
+def export_team_to_csv(squad: List[Dict[str, Any]], manager: Dict[str, Any] = None) -> str:
+    """
+    Export team to CSV file
+    
+    Args:
+        squad: List of player dictionaries in the squad
+        manager: Dictionary containing manager information
+        
+    Returns:
+        Path to saved CSV file
+    """
+    if not squad:
+        return "No squad to export"
+    
+    # Convert squad to DataFrame
+    squad_df = pd.DataFrame(squad)
+    
+    # Create directory if it doesn't exist
+    os.makedirs('exports', exist_ok=True)
+    
+    # Generate filename with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    filename = f"exports/team_export_{timestamp}.csv"
+    
+    # Save to CSV
+    squad_df.to_csv(filename, index=False)
+    
+    return filename
