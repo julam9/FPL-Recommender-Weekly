@@ -41,13 +41,13 @@ def get_website_text_content(url: str) -> str:
         logger.error(f"Error while scraping {url}: {str(e)}")
         return ""
     
-def scrape_team_data(league: str = "premier_league", season: str = "2023-2024") -> pd.DataFrame:
+def scrape_team_data(league: str = "premier_league", season: str = "2024-2025") -> pd.DataFrame:
     """
     Scrape team data from football statistics websites.
     
     Args:
         league: League name (e.g., premier_league, la_liga)
-        season: Season identifier (e.g., 2023-2024)
+        season: Season identifier (e.g., 2024-2025)
         
     Returns:
         DataFrame containing team information
