@@ -44,4 +44,85 @@ class TestUtils(unittest.TestCase):
         """Test formation string generation from position"""
         # Test with 4-4-2 formation
         formation = convert_positions_to_formation(self.test_squad)
-        self.assertEqual(formation, "4-4-2")
+        self.assertEqual(formation, "4-4-2") 
+        
+        # Test with a 3-5-2 formation 
+        squad_352 = self.test_squad.copy()
+        squad_352[3]['position'] = 'MID'
+        formation = convert_positions_to_formation(squad_352)
+        self.assertEqual(formation, "3-5-2")
+        
+        # Test with a 4-3-3 formation
+        squad_433 = self.test_squad.copy()
+        squad_433[8]['position'] = 'FWD'
+        formation = convert_positions_to_formation(squad_433)
+        self.assertEqual(formation, "4-3-3")
+    
+    def test_format_price(self):
+        """Test price formatting function"""
+        
+        # Test standard prices 
+        self.assertEqual(format_price(5.0), "£5.0m")
+        self.assertEqual(format_price(12.5), "£12.5m")
+        
+        # Test edge cases 
+        self.assertEqual(format_price(0), "£0.0m")
+        self.assertEqual(format_price(100), "£100.0m")
+        
+    def test_calculate_team_stats(self):
+        """Test team statistics calculation"""
+        stats = calculate_team_stats(self.test_squad)
+        
+        # Check that the stats dictionary contains expected keys 
+        self.assertIn("total_value", stats)
+        self.assertIn("average_performance", stats)
+        self.assertIn("formation", stats)
+        self.assertIn("position_counts", stats)
+        
+        # Verify total value calculation
+        expected_value = sum(player['price'] for player in self.test_squad)
+        self.assertEqual(stats['total_value'], expected_value)
+        
+        # Verify average performance calculation
+        expected_avg = sum(player['performance_score'] for player in self.test_squad)/len(self.test_squad)
+        self.assertEqual(stats['average_performance'], expected_avg)
+        
+        # Verify formation
+        self.assertEqual(stats['formation'], '4-4-2')
+        
+        # Verify position counts
+        self.assertEqual(stats['position_counts']['GK'], 1) 
+        self.assertEqual(stats['position_counts']['DEF'], 4)
+        self.assertEqual(stats['position_counts']['MID'], 4)
+        self.assertEqual(stats['position_counts']['FWD'], 2)
+        
+    def test_export_team_to_csv(self):
+        """Test team export to CSV functionality"""
+        # Export team to CSV
+        csv_path = export_team_to_csv(self.test_squad, self.manager_info)
+        
+        # Verify that the file was created 
+        self.assertTrue(os.path.exists(csv_path))
+        
+        # Verify that the content is correct by loading it back
+        try:
+            df = pd.read_csv(csv_path)
+            self.assertEqual(len(df), len(self.test_squad))
+        
+            # Check all the players are included
+            player_names = df['name'].tolist()
+            for player in self.test_squad:
+                self.assertIn(player['name'], player_names)
+            
+            # Clean up the test file 
+            if os.path.exists(csv_path):
+                os.remove(csv_path) 
+        
+        except Exception as e:
+            # Clean up the test file even if test fails
+            if os.path.exists(csv_path):
+                os.remove(csv_path)
+            raise e
+
+if __name__ == "__main__":
+    unittest.main()        
