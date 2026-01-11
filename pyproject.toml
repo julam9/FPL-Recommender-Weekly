@@ -1,8 +1,8 @@
-[tool.poetry]
+[project]
 name = "football-team-recommender"
 version = "0.1.0"
 description = "A football team recommendation system that builds optimal lineups based on player performance, budget constraints, and opponent analysis"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Julio Antonio Megu julioamdads@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
