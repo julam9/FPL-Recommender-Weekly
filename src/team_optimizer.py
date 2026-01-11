@@ -130,7 +130,7 @@ def build_optimal_team(
                 
     return selected_players
 
-def select_subtitutes( 
+def select_substitutes( 
     available_players: pd.DataFrame,
     budget: float, 
     current_squad: List[Dict[str, Any]] = None, 
