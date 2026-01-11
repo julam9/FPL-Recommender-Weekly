@@ -1,0 +1,381 @@
+fixture_id,gameweek,home_team,away_team,home_xg,away_xg,played,home_score,away_score
+1,1,Brighton,Liverpool,4.1,8.7,True,4,9
+2,1,Crystal Palace,Aston Villa,3.3,7.7,True,3,8
+3,1,Leicester,Nottingham Forest,3.0,6.6,True,3,7
+4,1,Man City,Newcastle,9.3,8.3,True,9,8
+5,1,Leeds,Arsenal,2.7,8.5,True,3,9
+6,1,Chelsea,Everton,8.3,6.8,True,8,7
+7,1,Man United,Tottenham,8.5,8.4,True,9,8
+8,1,Southampton,Wolves,2.3,6.4,True,2,6
+9,1,Bournemouth,Fulham,3.5,7.1,True,4,7
+10,1,West Ham,Brentford,7.4,7.5,True,7,8
+11,2,Arsenal,Wolves,8.5,6.4,True,9,6
+12,2,Chelsea,Tottenham,8.3,8.4,True,8,8
+13,2,West Ham,Everton,7.4,6.8,True,7,7
+14,2,Man City,Southampton,9.3,6.3,True,9,6
+15,2,Leicester,Newcastle,3.0,8.3,True,3,8
+16,2,Man United,Brentford,8.5,7.5,True,9,8
+17,2,Leeds,Liverpool,2.7,8.7,True,3,9
+18,2,Crystal Palace,Brighton,3.3,7.8,True,3,8
+19,2,Aston Villa,Fulham,7.7,7.1,True,8,7
+20,2,Nottingham Forest,Bournemouth,6.6,6.5,True,7,7
+21,3,Man City,Crystal Palace,9.3,7.3,True,9,7
+22,3,Brentford,Leeds,7.5,6.7,True,8,7
+23,3,Southampton,Aston Villa,6.3,7.7,True,6,8
+24,3,Newcastle,West Ham,8.3,7.4,True,8,7
+25,3,Liverpool,Nottingham Forest,8.7,6.6,True,9,7
+26,3,Wolves,Chelsea,6.4,8.3,True,6,8
+27,3,Arsenal,Man United,8.5,8.5,True,9,9
+28,3,Brighton,Bournemouth,7.8,6.5,True,8,7
+29,3,Fulham,Leicester,7.1,7.0,True,7,7
+30,3,Tottenham,Everton,8.4,6.8,True,8,7
+31,4,Bournemouth,Man United,6.5,8.5,True,7,9
+32,4,Arsenal,Aston Villa,8.5,7.7,True,9,8
+33,4,Wolves,Nottingham Forest,6.4,6.6,True,6,7
+34,4,Southampton,Tottenham,6.3,8.4,True,6,8
+35,4,Brentford,Fulham,7.5,7.1,True,8,7
+36,4,Leicester,Chelsea,7.0,8.3,True,7,8
+37,4,Liverpool,Man City,8.7,9.3,True,9,9
+38,4,Newcastle,Crystal Palace,8.3,7.3,True,8,7
+39,4,Brighton,Leeds,7.8,6.7,True,8,7
+40,4,West Ham,Everton,7.4,6.8,True,7,7
+41,5,Newcastle,Southampton,8.3,6.3,True,8,6
+42,5,Tottenham,Brentford,8.4,7.5,True,8,8
+43,5,Fulham,Wolves,7.1,6.4,True,7,6
+44,5,Crystal Palace,West Ham,7.3,7.4,True,7,7
+45,5,Leeds,Bournemouth,6.7,6.5,True,7,7
+46,5,Man City,Arsenal,9.3,8.5,True,9,9
+47,5,Liverpool,Brighton,8.7,7.8,True,9,8
+48,5,Everton,Leicester,6.8,7.0,True,7,7
+49,5,Aston Villa,Man United,7.7,8.5,True,8,9
+50,5,Nottingham Forest,Chelsea,6.6,8.3,True,7,8
+51,6,Everton,Aston Villa,6.8,7.7,True,7,8
+52,6,Chelsea,Newcastle,8.3,8.3,True,8,8
+53,6,Brighton,Arsenal,7.8,8.5,True,8,9
+54,6,Fulham,Liverpool,7.1,8.7,True,7,9
+55,6,Man United,Leeds,8.5,6.7,True,9,7
+56,6,Brentford,Southampton,7.5,6.3,True,8,6
+57,6,Wolves,Man City,6.4,9.3,True,6,9
+58,6,Leicester,Bournemouth,7.0,6.5,True,7,7
+59,6,West Ham,Nottingham Forest,7.4,6.6,True,7,7
+60,6,Crystal Palace,Tottenham,7.3,8.4,True,7,8
+61,7,Man City,Fulham,9.3,7.1,True,9,7
+62,7,Brighton,Everton,7.8,6.8,True,8,7
+63,7,Southampton,Man United,6.3,8.5,True,6,9
+64,7,Bournemouth,Wolves,6.5,6.4,True,7,6
+65,7,Chelsea,Leeds,8.3,6.7,True,8,7
+66,7,Tottenham,Newcastle,8.4,8.3,True,8,8
+67,7,Liverpool,Brentford,8.7,7.5,True,9,8
+68,7,Arsenal,Crystal Palace,8.5,7.3,True,9,7
+69,7,Aston Villa,West Ham,7.7,7.4,True,8,7
+70,7,Nottingham Forest,Leicester,6.6,7.0,True,7,7
+71,8,Bournemouth,Liverpool,6.5,8.7,True,7,9
+72,8,West Ham,Chelsea,7.4,8.3,True,7,8
+73,8,Wolves,Southampton,6.4,6.3,True,6,6
+74,8,Man United,Arsenal,8.5,8.5,True,9,9
+75,8,Fulham,Brighton,7.1,7.8,True,7,8
+76,8,Aston Villa,Nottingham Forest,7.7,6.6,True,8,7
+77,8,Brentford,Newcastle,7.5,8.3,True,8,8
+78,8,Crystal Palace,Leeds,7.3,6.7,True,7,7
+79,8,Leicester,Man City,7.0,9.3,True,7,9
+80,8,Tottenham,Everton,8.4,6.8,True,8,7
+81,9,Everton,Bournemouth,6.8,6.5,True,7,7
+82,9,Man City,Chelsea,9.3,8.3,True,9,8
+83,9,Southampton,Leicester,6.3,7.0,True,6,7
+84,9,Leeds,Aston Villa,6.7,7.7,True,7,8
+85,9,Crystal Palace,Man United,7.3,8.5,True,7,9
+86,9,Liverpool,Wolves,8.7,6.4,True,9,6
+87,9,Arsenal,Tottenham,8.5,8.4,True,9,8
+88,9,Newcastle,Fulham,8.3,7.1,True,8,7
+89,9,Nottingham Forest,Brentford,6.6,7.5,True,7,8
+90,9,Brighton,West Ham,7.8,7.4,True,8,7
+91,10,West Ham,Man United,7.4,8.5,False,,
+92,10,Everton,Arsenal,6.8,8.5,False,,
+93,10,Brentford,Brighton,7.5,7.8,False,,
+94,10,Newcastle,Nottingham Forest,8.3,6.6,False,,
+95,10,Wolves,Crystal Palace,6.4,7.3,False,,
+96,10,Aston Villa,Liverpool,7.7,8.7,False,,
+97,10,Leicester,Leeds,7.0,6.7,False,,
+98,10,Southampton,Bournemouth,6.3,6.5,False,,
+99,10,Chelsea,Man City,8.3,9.3,False,,
+100,10,Fulham,Tottenham,7.1,8.4,False,,
+101,11,Arsenal,Southampton,8.5,6.3,False,,
+102,11,Nottingham Forest,Everton,6.6,6.8,False,,
+103,11,Brighton,Wolves,7.8,6.4,False,,
+104,11,Leeds,Chelsea,6.7,8.3,False,,
+105,11,Liverpool,West Ham,8.7,7.4,False,,
+106,11,Man United,Leicester,8.5,7.0,False,,
+107,11,Crystal Palace,Fulham,7.3,7.1,False,,
+108,11,Bournemouth,Brentford,6.5,7.5,False,,
+109,11,Tottenham,Aston Villa,8.4,7.7,False,,
+110,11,Man City,Newcastle,9.3,8.3,False,,
+111,12,Chelsea,Bournemouth,8.3,6.5,False,,
+112,12,Wolves,Arsenal,6.4,8.5,False,,
+113,12,Man United,Brighton,8.5,7.8,False,,
+114,12,Southampton,Crystal Palace,6.3,7.3,False,,
+115,12,Fulham,Leeds,7.1,6.7,False,,
+116,12,Aston Villa,Man City,7.7,9.3,False,,
+117,12,West Ham,Tottenham,7.4,8.4,False,,
+118,12,Newcastle,Liverpool,8.3,8.7,False,,
+119,12,Brentford,Leicester,7.5,7.0,False,,
+120,12,Everton,Nottingham Forest,6.8,6.6,False,,
+121,13,Bournemouth,Newcastle,6.5,8.3,False,,
+122,13,Man City,Brentford,9.3,7.5,False,,
+123,13,Brighton,Southampton,7.8,6.3,False,,
+124,13,Aston Villa,Chelsea,7.7,8.3,False,,
+125,13,Nottingham Forest,Man United,6.6,8.5,False,,
+126,13,Crystal Palace,Everton,7.3,6.8,False,,
+127,13,Arsenal,Leicester,8.5,7.0,False,,
+128,13,Liverpool,Fulham,8.7,7.1,False,,
+129,13,Leeds,West Ham,6.7,7.4,False,,
+130,13,Tottenham,Wolves,8.4,6.4,False,,
+131,14,Everton,Man City,6.8,9.3,False,,
+132,14,Tottenham,Liverpool,8.4,8.7,False,,
+133,14,Newcastle,Leeds,8.3,6.7,False,,
+134,14,Leicester,Crystal Palace,7.0,7.3,False,,
+135,14,Southampton,Arsenal,6.3,8.5,False,,
+136,14,Chelsea,Brighton,8.3,7.8,False,,
+137,14,Wolves,Aston Villa,6.4,7.7,False,,
+138,14,West Ham,Bournemouth,7.4,6.5,False,,
+139,14,Fulham,Nottingham Forest,7.1,6.6,False,,
+140,14,Brentford,Man United,7.5,8.5,False,,
+141,15,Man City,Tottenham,9.3,8.4,False,,
+142,15,Arsenal,West Ham,8.5,7.4,False,,
+143,15,Liverpool,Everton,8.7,6.8,False,,
+144,15,Bournemouth,Crystal Palace,6.5,7.3,False,,
+145,15,Nottingham Forest,Southampton,6.6,6.3,False,,
+146,15,Brighton,Fulham,7.8,7.1,False,,
+147,15,Leeds,Brentford,6.7,7.5,False,,
+148,15,Man United,Chelsea,8.5,8.3,False,,
+149,15,Newcastle,Leicester,8.3,7.0,False,,
+150,15,Aston Villa,Wolves,7.7,6.4,False,,
+151,16,Crystal Palace,Nottingham Forest,7.3,6.6,False,,
+152,16,Southampton,Liverpool,6.3,8.7,False,,
+153,16,Fulham,Arsenal,7.1,8.5,False,,
+154,16,Wolves,Man United,6.4,8.5,False,,
+155,16,Chelsea,Newcastle,8.3,8.3,False,,
+156,16,Brentford,Aston Villa,7.5,7.7,False,,
+157,16,Tottenham,Bournemouth,8.4,6.5,False,,
+158,16,Everton,Brighton,6.8,7.8,False,,
+159,16,Leicester,West Ham,7.0,7.4,False,,
+160,16,Man City,Leeds,9.3,6.7,False,,
+161,17,Brighton,Leicester,7.8,7.0,False,,
+162,17,Aston Villa,Southampton,7.7,6.3,False,,
+163,17,Arsenal,Chelsea,8.5,8.3,False,,
+164,17,Man United,Everton,8.5,6.8,False,,
+165,17,Nottingham Forest,Wolves,6.6,6.4,False,,
+166,17,Leeds,Tottenham,6.7,8.4,False,,
+167,17,Crystal Palace,Brentford,7.3,7.5,False,,
+168,17,Fulham,Man City,7.1,9.3,False,,
+169,17,Liverpool,Newcastle,8.7,8.3,False,,
+170,17,Bournemouth,West Ham,6.5,7.4,False,,
+171,18,Man City,Bournemouth,9.3,6.5,False,,
+172,18,Chelsea,Crystal Palace,8.3,7.3,False,,
+173,18,Newcastle,Arsenal,8.3,8.5,False,,
+174,18,Wolves,Brighton,6.4,7.8,False,,
+175,18,West Ham,Man United,7.4,8.5,False,,
+176,18,Brentford,Liverpool,7.5,8.7,False,,
+177,18,Everton,Leeds,6.8,6.7,False,,
+178,18,Tottenham,Fulham,8.4,7.1,False,,
+179,18,Leicester,Aston Villa,7.0,7.7,False,,
+180,18,Southampton,Nottingham Forest,6.3,6.6,False,,
+181,19,Newcastle,Bournemouth,8.3,6.5,False,,
+182,19,Wolves,West Ham,6.4,7.4,False,,
+183,19,Aston Villa,Brighton,7.7,7.8,False,,
+184,19,Man United,Fulham,8.5,7.1,False,,
+185,19,Arsenal,Brentford,8.5,7.5,False,,
+186,19,Man City,Liverpool,9.3,8.7,False,,
+187,19,Leeds,Newcastle,6.7,8.3,False,,
+188,19,Crystal Palace,Southampton,7.3,6.3,False,,
+189,19,Leicester,Tottenham,7.0,8.4,False,,
+190,19,Chelsea,Nottingham Forest,8.3,6.6,False,,
+191,20,West Ham,Leicester,7.4,7.0,False,,
+192,20,Southampton,Chelsea,6.3,8.3,False,,
+193,20,Fulham,Crystal Palace,7.1,7.3,False,,
+194,20,Liverpool,Arsenal,8.7,8.5,False,,
+195,20,Bournemouth,Aston Villa,6.5,7.7,False,,
+196,20,Everton,Wolves,6.8,6.4,False,,
+197,20,Brentford,Man City,7.5,9.3,False,,
+198,20,Brighton,Man United,7.8,8.5,False,,
+199,20,Nottingham Forest,Leeds,6.6,6.7,False,,
+200,20,Tottenham,Newcastle,8.4,8.3,False,,
+201,21,Everton,Liverpool,6.8,8.7,False,,
+202,21,Arsenal,Bournemouth,8.5,6.5,False,,
+203,21,Crystal Palace,Chelsea,7.3,8.3,False,,
+204,21,Newcastle,Brighton,8.3,7.8,False,,
+205,21,West Ham,Southampton,7.4,6.3,False,,
+206,21,Wolves,Brentford,6.4,7.5,False,,
+207,21,Man United,Aston Villa,8.5,7.7,False,,
+208,21,Man City,Leicester,9.3,7.0,False,,
+209,21,Leeds,Fulham,6.7,7.1,False,,
+210,21,Tottenham,Nottingham Forest,8.4,6.6,False,,
+211,22,Leicester,Liverpool,7.0,8.7,False,,
+212,22,Southampton,Everton,6.3,6.8,False,,
+213,22,Nottingham Forest,Arsenal,6.6,8.5,False,,
+214,22,Chelsea,West Ham,8.3,7.4,False,,
+215,22,Aston Villa,Leeds,7.7,6.7,False,,
+216,22,Fulham,Wolves,7.1,6.4,False,,
+217,22,Brighton,Crystal Palace,7.8,7.3,False,,
+218,22,Brentford,Tottenham,7.5,8.4,False,,
+219,22,Man City,Man United,9.3,8.5,False,,
+220,22,Bournemouth,Newcastle,6.5,8.3,False,,
+221,23,Liverpool,Southampton,8.7,6.3,False,,
+222,23,Arsenal,Brighton,8.5,7.8,False,,
+223,23,West Ham,Fulham,7.4,7.1,False,,
+224,23,Newcastle,Everton,8.3,6.8,False,,
+225,23,Wolves,Bournemouth,6.4,6.5,False,,
+226,23,Crystal Palace,Aston Villa,7.3,7.7,False,,
+227,23,Chelsea,Leicester,8.3,7.0,False,,
+228,23,Man United,Nottingham Forest,8.5,6.6,False,,
+229,23,Leeds,Man City,6.7,9.3,False,,
+230,23,Tottenham,Brentford,8.4,7.5,False,,
+231,24,Southampton,Newcastle,6.3,8.3,False,,
+232,24,Fulham,Chelsea,7.1,8.3,False,,
+233,24,Everton,Crystal Palace,6.8,7.3,False,,
+234,24,Nottingham Forest,Liverpool,6.6,8.7,False,,
+235,24,Man City,Arsenal,9.3,8.5,False,,
+236,24,Bournemouth,Tottenham,6.5,8.4,False,,
+237,24,Aston Villa,West Ham,7.7,7.4,False,,
+238,24,Brighton,Leeds,7.8,6.7,False,,
+239,24,Leicester,Wolves,7.0,6.4,False,,
+240,24,Brentford,Man United,7.5,8.5,False,,
+241,25,Crystal Palace,Leicester,7.3,7.0,False,,
+242,25,Liverpool,Brighton,8.7,7.8,False,,
+243,25,Arsenal,Nottingham Forest,8.5,6.6,False,,
+244,25,Newcastle,Man City,8.3,9.3,False,,
+245,25,Wolves,Everton,6.4,6.8,False,,
+246,25,West Ham,Brentford,7.4,7.5,False,,
+247,25,Man United,Southampton,8.5,6.3,False,,
+248,25,Chelsea,Aston Villa,8.3,7.7,False,,
+249,25,Leeds,Bournemouth,6.7,6.5,False,,
+250,25,Tottenham,Fulham,8.4,7.1,False,,
+251,26,Leicester,Man United,7.0,8.5,False,,
+252,26,Aston Villa,Tottenham,7.7,8.4,False,,
+253,26,Southampton,West Ham,6.3,7.4,False,,
+254,26,Fulham,Newcastle,7.1,8.3,False,,
+255,26,Nottingham Forest,Crystal Palace,6.6,7.3,False,,
+256,26,Everton,Chelsea,6.8,8.3,False,,
+257,26,Man City,Wolves,9.3,6.4,False,,
+258,26,Bournemouth,Arsenal,6.5,8.5,False,,
+259,26,Brentford,Leeds,7.5,6.7,False,,
+260,26,Brighton,Liverpool,7.8,8.7,False,,
+261,27,Crystal Palace,Bournemouth,7.3,6.5,False,,
+262,27,Liverpool,Brentford,8.7,7.5,False,,
+263,27,Man United,Man City,8.5,9.3,False,,
+264,27,Arsenal,Aston Villa,8.5,7.7,False,,
+265,27,Wolves,Fulham,6.4,7.1,False,,
+266,27,Newcastle,Southampton,8.3,6.3,False,,
+267,27,Leeds,Everton,6.7,6.8,False,,
+268,27,Chelsea,Leicester,8.3,7.0,False,,
+269,27,West Ham,Brighton,7.4,7.8,False,,
+270,27,Tottenham,Nottingham Forest,8.4,6.6,False,,
+271,28,Southampton,Wolves,6.3,6.4,False,,
+272,28,Leicester,Arsenal,7.0,8.5,False,,
+273,28,Fulham,West Ham,7.1,7.4,False,,
+274,28,Brighton,Tottenham,7.8,8.4,False,,
+275,28,Everton,Man United,6.8,8.5,False,,
+276,28,Chelsea,Liverpool,8.3,8.7,False,,
+277,28,Man City,Crystal Palace,9.3,7.3,False,,
+278,28,Bournemouth,Newcastle,6.5,8.3,False,,
+279,28,Aston Villa,Leeds,7.7,6.7,False,,
+280,28,Brentford,Nottingham Forest,7.5,6.6,False,,
+281,29,Crystal Palace,Brighton,7.3,7.8,False,,
+282,29,Newcastle,Chelsea,8.3,8.3,False,,
+283,29,Wolves,Leicester,6.4,7.0,False,,
+284,29,Liverpool,Bournemouth,8.7,6.5,False,,
+285,29,Leeds,Southampton,6.7,6.3,False,,
+286,29,Arsenal,Fulham,8.5,7.1,False,,
+287,29,Tottenham,Man City,8.4,9.3,False,,
+288,29,West Ham,Aston Villa,7.4,7.7,False,,
+289,29,Man United,Brentford,8.5,7.5,False,,
+290,29,Nottingham Forest,Everton,6.6,6.8,False,,
+291,30,Chelsea,Southampton,8.3,6.3,False,,
+292,30,Fulham,Bournemouth,7.1,6.5,False,,
+293,30,Aston Villa,Crystal Palace,7.7,7.3,False,,
+294,30,Man City,West Ham,9.3,7.4,False,,
+295,30,Brighton,Newcastle,7.8,8.3,False,,
+296,30,Leicester,Nottingham Forest,7.0,6.6,False,,
+297,30,Everton,Tottenham,6.8,8.4,False,,
+298,30,Brentford,Arsenal,7.5,8.5,False,,
+299,30,Liverpool,Leeds,8.7,6.7,False,,
+300,30,Man United,Wolves,8.5,6.4,False,,
+301,31,Bournemouth,Chelsea,6.5,8.3,False,,
+302,31,Wolves,Liverpool,6.4,8.7,False,,
+303,31,Arsenal,Man United,8.5,8.5,False,,
+304,31,Nottingham Forest,Brighton,6.6,7.8,False,,
+305,31,Southampton,Fulham,6.3,7.1,False,,
+306,31,Leeds,Leicester,6.7,7.0,False,,
+307,31,Crystal Palace,West Ham,7.3,7.4,False,,
+308,31,Newcastle,Aston Villa,8.3,7.7,False,,
+309,31,Tottenham,Brentford,8.4,7.5,False,,
+310,31,Man City,Everton,9.3,6.8,False,,
+311,32,Liverpool,Crystal Palace,8.7,7.3,False,,
+312,32,Aston Villa,Bournemouth,7.7,6.5,False,,
+313,32,Chelsea,Arsenal,8.3,8.5,False,,
+314,32,Leicester,Southampton,7.0,6.3,False,,
+315,32,Brentford,Wolves,7.5,6.4,False,,
+316,32,Fulham,Man City,7.1,9.3,False,,
+317,32,Man United,Newcastle,8.5,8.3,False,,
+318,32,Everton,West Ham,6.8,7.4,False,,
+319,32,Brighton,Nottingham Forest,7.8,6.6,False,,
+320,32,Leeds,Tottenham,6.7,8.4,False,,
+321,33,Arsenal,Everton,8.5,6.8,False,,
+322,33,Chelsea,Brentford,8.3,7.5,False,,
+323,33,Southampton,Brighton,6.3,7.8,False,,
+324,33,Bournemouth,Leeds,6.5,6.7,False,,
+325,33,Newcastle,Crystal Palace,8.3,7.3,False,,
+326,33,Liverpool,Aston Villa,8.7,7.7,False,,
+327,33,West Ham,Wolves,7.4,6.4,False,,
+328,33,Man City,Nottingham Forest,9.3,6.6,False,,
+329,33,Leicester,Fulham,7.0,7.1,False,,
+330,33,Tottenham,Man United,8.4,8.5,False,,
+331,34,Brighton,Chelsea,7.8,8.3,False,,
+332,34,Man United,Liverpool,8.5,8.7,False,,
+333,34,Wolves,Newcastle,6.4,8.3,False,,
+334,34,Aston Villa,Arsenal,7.7,8.5,False,,
+335,34,Crystal Palace,Bournemouth,7.3,6.5,False,,
+336,34,Everton,Southampton,6.8,6.3,False,,
+337,34,Brentford,West Ham,7.5,7.4,False,,
+338,34,Leeds,Man City,6.7,9.3,False,,
+339,34,Fulham,Leicester,7.1,7.0,False,,
+340,34,Nottingham Forest,Tottenham,6.6,8.4,False,,
+341,35,Wolves,Leeds,6.4,6.7,False,,
+342,35,Southampton,Brentford,6.3,7.5,False,,
+343,35,Liverpool,Chelsea,8.7,8.3,False,,
+344,35,Bournemouth,Brighton,6.5,7.8,False,,
+345,35,Newcastle,Man United,8.3,8.5,False,,
+346,35,Arsenal,Wolves,8.5,6.4,False,,
+347,35,West Ham,Crystal Palace,7.4,7.3,False,,
+348,35,Tottenham,Leicester,8.4,7.0,False,,
+349,35,Man City,Aston Villa,9.3,7.7,False,,
+350,35,Fulham,Everton,7.1,6.8,False,,
+351,36,Aston Villa,Fulham,7.7,7.1,False,,
+352,36,Chelsea,Man United,8.3,8.5,False,,
+353,36,Crystal Palace,Arsenal,7.3,8.5,False,,
+354,36,Everton,Newcastle,6.8,8.3,False,,
+355,36,Brighton,Man City,7.8,9.3,False,,
+356,36,Leeds,Liverpool,6.7,8.7,False,,
+357,36,Leicester,West Ham,7.0,7.4,False,,
+358,36,Brentford,Southampton,7.5,6.3,False,,
+359,36,Nottingham Forest,Bournemouth,6.6,6.5,False,,
+360,36,Tottenham,Wolves,8.4,6.4,False,,
+361,37,Arsenal,Leeds,8.5,6.7,False,,
+362,37,Man United,Tottenham,8.5,8.4,False,,
+363,37,Newcastle,Brentford,8.3,7.5,False,,
+364,37,Liverpool,Leicester,8.7,7.0,False,,
+365,37,Southampton,Aston Villa,6.3,7.7,False,,
+366,37,West Ham,Brighton,7.4,7.8,False,,
+367,37,Bournemouth,Everton,6.5,6.8,False,,
+368,37,Wolves,Chelsea,6.4,8.3,False,,
+369,37,Man City,Nottingham Forest,9.3,6.6,False,,
+370,37,Fulham,Crystal Palace,7.1,7.3,False,,
+371,38,Leicester,Everton,7.0,6.8,False,,
+372,38,Aston Villa,Brighton,7.7,7.8,False,,
+373,38,Crystal Palace,Newcastle,7.3,8.3,False,,
+374,38,Brentford,Bournemouth,7.5,6.5,False,,
+375,38,Chelsea,Fulham,8.3,7.1,False,,
+376,38,Leeds,Wolves,6.7,6.4,False,,
+377,38,Tottenham,Arsenal,8.4,8.5,False,,
+378,38,Nottingham Forest,West Ham,6.6,7.4,False,,
+379,38,Man United,Liverpool,8.5,8.7,False,,
+380,38,Man City,Southampton,9.3,6.3,False,,

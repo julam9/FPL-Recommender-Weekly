@@ -1,0 +1,112 @@
+player_id,name,position,team,gameweek,performance_score,goals,assists,clean_sheets,key_passes,minutes_played,form
+1,Alisson,GK,Liverpool,1,50.2,0,0,0,0,0,5.0
+2,Ederson,GK,Man City,1,47.7,0,0,0,0,90,4.8
+3,De Gea,GK,Man United,1,67.3,0,0,1,0,90,6.7
+4,Lloris,GK,Tottenham,1,72.0,0,0,0,0,90,7.2
+5,Ramsdale,GK,Arsenal,1,81.7,0,0,0,0,90,8.2
+6,Mendy,GK,Chelsea,1,83.9,0,0,0,0,90,8.4
+7,Pickford,GK,Everton,1,70.1,0,0,0,0,90,7.0
+8,Pope,GK,Newcastle,1,87.9,0,0,1,0,90,8.8
+1,Alisson,GK,Liverpool,2,54.3,0,0,0,0,90,5.4
+2,Ederson,GK,Man City,2,65.2,0,0,1,0,90,6.5
+3,De Gea,GK,Man United,2,54.2,0,0,0,0,90,5.4
+4,Lloris,GK,Tottenham,2,80.4,0,0,0,0,90,8.0
+5,Ramsdale,GK,Arsenal,2,78.8,0,0,0,0,90,7.9
+6,Mendy,GK,Chelsea,2,75.9,0,0,0,0,90,7.6
+7,Pickford,GK,Everton,2,76.3,0,0,0,0,90,7.6
+8,Pope,GK,Newcastle,2,76.6,0,0,0,0,90,7.7
+1,Alisson,GK,Liverpool,3,48.9,0,0,0,0,90,4.9
+2,Ederson,GK,Man City,3,59.9,0,0,0,0,90,6.0
+3,De Gea,GK,Man United,3,54.6,0,0,0,0,90,5.5
+4,Lloris,GK,Tottenham,3,78.5,0,0,1,0,90,7.8
+5,Ramsdale,GK,Arsenal,3,88.9,0,0,0,0,90,8.9
+6,Mendy,GK,Chelsea,3,84.9,0,0,1,0,90,8.5
+7,Pickford,GK,Everton,3,76.3,0,0,0,0,90,7.6
+8,Pope,GK,Newcastle,3,93.7,0,0,0,0,90,9.4
+1,Alisson,GK,Liverpool,4,61.1,0,0,0,0,90,6.1
+2,Ederson,GK,Man City,4,51.9,0,0,0,0,90,5.2
+3,De Gea,GK,Man United,4,61.3,0,0,0,0,90,6.1
+4,Lloris,GK,Tottenham,4,81.9,0,0,1,0,90,8.2
+5,Ramsdale,GK,Arsenal,4,89.0,0,0,1,0,90,8.9
+6,Mendy,GK,Chelsea,4,88.6,0,0,0,0,90,8.9
+7,Pickford,GK,Everton,4,93.5,0,0,0,0,90,9.4
+8,Pope,GK,Newcastle,4,88.3,0,0,0,0,90,8.8
+1,Alisson,GK,Liverpool,5,61.4,0,0,0,0,90,6.1
+2,Ederson,GK,Man City,5,61.4,0,0,0,0,90,6.1
+3,De Gea,GK,Man United,5,62.1,0,0,0,0,90,6.2
+4,Lloris,GK,Tottenham,5,77.3,0,0,0,0,90,7.7
+5,Ramsdale,GK,Arsenal,5,81.4,0,0,0,0,90,8.1
+6,Mendy,GK,Chelsea,5,78.3,0,0,0,0,90,7.8
+7,Pickford,GK,Everton,5,66.9,0,0,0,0,90,6.7
+8,Pope,GK,Newcastle,5,91.9,0,0,1,0,90,9.2
+1,Alisson,GK,Liverpool,6,62.6,0,0,0,0,90,6.3
+2,Ederson,GK,Man City,6,65.0,0,0,1,0,90,6.5
+3,De Gea,GK,Man United,6,70.1,0,0,1,0,90,7.0
+4,Lloris,GK,Tottenham,6,83.7,0,0,1,0,90,8.4
+5,Ramsdale,GK,Arsenal,6,67.8,0,0,0,0,90,6.8
+6,Mendy,GK,Chelsea,6,69.1,0,0,0,0,90,6.9
+7,Pickford,GK,Everton,6,77.0,0,0,0,0,90,7.7
+8,Pope,GK,Newcastle,6,85.3,0,0,0,0,90,8.5
+11,Alexander-Arnold,RB,Liverpool,1,48.5,0,0,0,1,90,4.9
+12,Walker,RB,Man City,1,62.9,0,1,0,3,90,6.3
+13,James,RB,Chelsea,1,63.9,0,2,0,4,90,6.4
+14,Wan-Bissaka,RB,Man United,1,71.2,1,3,1,0,90,7.1
+15,Cash,RB,Aston Villa,1,63.9,0,0,0,0,0,6.4
+16,Trippier,RB,Newcastle,1,95.4,1,5,0,1,90,9.5
+17,Cancelo,RB,Man City,1,89.7,2,6,0,0,90,9.0
+18,Tomiyasu,RB,Arsenal,1,80.1,0,0,0,0,0,8.0
+20,Dalot,RB,Man United,1,94.6,2,9,1,3,90,9.5
+11,Alexander-Arnold,RB,Liverpool,2,52.1,0,1,0,2,90,5.2
+12,Walker,RB,Man City,2,59.3,0,0,1,0,90,5.9
+13,James,RB,Chelsea,2,58.5,0,0,0,0,90,5.9
+14,Wan-Bissaka,RB,Man United,2,67.8,0,0,0,0,90,6.8
+15,Cash,RB,Aston Villa,2,83.0,1,4,1,2,90,8.3
+16,Trippier,RB,Newcastle,2,84.5,0,0,0,0,0,8.5
+17,Cancelo,RB,Man City,2,98.7,2,6,1,3,90,9.9
+18,Tomiyasu,RB,Arsenal,2,81.9,0,0,0,0,0,8.2
+20,Dalot,RB,Man United,2,103.2,2,9,0,3,90,10.0
+11,Alexander-Arnold,RB,Liverpool,3,59.3,0,1,0,3,90,5.9
+12,Walker,RB,Man City,3,64.5,0,0,0,0,90,6.5
+13,James,RB,Chelsea,3,63.5,0,2,1,1,90,6.4
+14,Wan-Bissaka,RB,Man United,3,69.9,0,0,0,0,90,7.0
+15,Cash,RB,Aston Villa,3,75.3,0,0,0,0,90,7.5
+16,Trippier,RB,Newcastle,3,81.5,0,0,0,1,90,8.2
+17,Cancelo,RB,Man City,3,78.9,0,0,0,0,90,7.9
+18,Tomiyasu,RB,Arsenal,3,89.3,0,0,0,0,0,8.9
+20,Dalot,RB,Man United,3,101.5,0,0,0,0,0,10.0
+21,Van Dijk,CB,Liverpool,1,50.0,0,0,0,0,90,5.0
+22,Dias,CB,Man City,1,56.2,0,0,0,0,90,5.6
+23,Silva,CB,Chelsea,1,56.8,0,0,0,0,90,5.7
+24,Maguire,CB,Man United,1,65.3,1,0,1,0,90,6.5
+25,Stones,CB,Man City,1,62.0,0,0,0,0,0,6.2
+26,Varane,CB,Man United,1,71.8,1,1,1,0,90,7.2
+27,Laporte,CB,Man City,1,66.5,0,0,0,0,0,6.7
+28,Gabriel,CB,Arsenal,1,70.2,0,0,0,0,0,7.0
+29,Romero,CB,Tottenham,1,73.9,0,0,0,0,0,7.4
+30,Dunk,CB,Brighton,1,84.0,2,0,0,0,90,8.4
+31,Konsa,CB,Aston Villa,1,85.0,3,2,0,0,90,8.5
+32,Mings,CB,Aston Villa,1,84.4,3,2,1,0,90,8.4
+33,Guehi,CB,Crystal Palace,1,83.2,0,2,0,0,90,8.3
+34,Anderson,CB,Fulham,1,86.7,0,2,0,0,90,8.7
+35,Kilman,CB,Wolves,1,89.2,1,2,0,0,90,8.9
+36,Fofana,CB,Chelsea,1,90.0,0,0,0,0,0,9.0
+37,Saliba,CB,Arsenal,1,81.7,0,0,0,0,0,8.2
+38,Martinez,CB,Man United,1,99.9,2,2,1,0,90,10.0
+21,Van Dijk,CB,Liverpool,2,46.3,0,0,0,0,90,4.6
+22,Dias,CB,Man City,2,57.7,0,0,1,0,90,5.8
+23,Silva,CB,Chelsea,2,55.8,0,0,0,0,90,5.6
+24,Maguire,CB,Man United,2,59.4,0,0,0,0,90,5.9
+25,Stones,CB,Man City,2,55.9,0,0,1,0,90,5.6
+26,Varane,CB,Man United,2,64.8,0,0,0,0,90,6.5
+27,Laporte,CB,Man City,2,66.7,0,0,1,0,90,6.7
+28,Gabriel,CB,Arsenal,2,66.9,0,0,0,0,90,6.7
+29,Romero,CB,Tottenham,2,68.8,0,0,0,0,90,6.9
+30,Dunk,CB,Brighton,2,63.1,0,0,0,0,90,6.3
+31,Konsa,CB,Aston Villa,2,71.9,0,0,0,0,90,7.2
+32,Mings,CB,Aston Villa,2,74.8,0,0,0,0,90,7.5
+33,Guehi,CB,Crystal Palace,2,73.5,0,0,0,0,90,7.4
+34,Anderson,CB,Fulham,2,77.5,0,0,0,0,90,7.8
+35,Kilman,CB,Wolves,2,84.3,0,0,0,0,90,8.4
+36,Fofana,CB,Chelsea,2,84.9,0,0,0,0,90,8.5
+37,Saliba,CB,Arsenal,2,88.5,0,0,0,0,90,8.9
+38,Martinez,CB,Man United,2,87.7,0,0,0,0,90,8.8
