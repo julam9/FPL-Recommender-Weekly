@@ -195,7 +195,7 @@ if page == "Team Builder":
                     }
                 
                 st.success("Team generated successfully!")
-                st.rerun()
+                # st.rerun()
     
     else:  # Manual Selection
         st.markdown("Manually select players for your team")
@@ -289,7 +289,7 @@ if page == "Team Builder":
                         
                         st.session_state.squad = st.session_state.starting_xi + st.session_state.substitutes
                         st.success(f"Added {player_dict['name']} to squad!")
-                        st.rerun()
+                        #  st.rerun()
         
         # Manager selection
         st.markdown("---")
@@ -312,7 +312,7 @@ if page == "Team Builder":
             }
             
             st.success(f"Selected {selected_manager} as manager!")
-            st.rerun()
+            # st.rerun()
 
 elif page == "Player Database":
     st.header("Player Database")
@@ -387,7 +387,7 @@ elif page == "Player Database":
         is_available = availability_status == "Available"
         update_player_availability(player_to_update, is_available, reason)
         st.success("Player availability updated!")
-        st.rerun()
+        #  st.rerun()
     
     # Player performance visualization
     st.markdown("---")
